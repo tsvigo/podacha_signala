@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
         std::cerr << "Numbers were not written or read correctly." << std::endl;
         return 1;
     }
-    exit(0);
+    // exit(0);
     for (const auto &number : resultNumbers) {
         std::cout << number << std::endl;
     }
