@@ -14,7 +14,7 @@
 #include <iostream>
 #include <vector>
 
-// Функция для преобразования пикселей изображения в числа unsigned long long
+// Функция для преобразования пикселей изображения в числа unsigned unsigned long long
 std::vector<unsigned long long> imageToNumbers(const QString &fileName)
 {
     QImage image;
@@ -84,8 +84,11 @@ int main(int argc, char *argv[])
 
     const QString imageFileName
         = "/home/viktor/Загрузки/data/none/300/masshtab/black-white/1.bmp"; // Имя BMP файла
-    const QString binaryFileName = "/home/viktor/my_projects_qt_2/generatsiya_neyronov/"
-                                   "random_numbers.bin"; // Имя бинарного файла с числами
+
+    const QString binaryFileName
+        = "/home/viktor/my_projects_qt_2/sgenerirovaty_long_long_neyroni/random_numbers.bin";
+    //"/home/viktor/my_projects_qt_2/generatsiya_neyronov/"
+    //               "random_numbers.bin"; // Имя бинарного файла с числами
     const QString outputFileName = "/home/viktor/my_projects_qt_2/podacha_signala/"
                                    "combined_numbers.bin"; // Имя выходного бинарного файла
 
